@@ -33,17 +33,20 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-24">
           <a
             href="#"
-            className="flex items-center group"
+            className="flex items-center gap-3 group"
             onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
           >
             <img
               src="/5BA9AE3F-CFAE-4201-8752-8EE9398DC39D_(1).PNG"
               alt="Rocky Top Drivers LLC"
-              className="h-16 w-auto object-contain transition-opacity duration-300 group-hover:opacity-90"
+              className="h-20 sm:h-24 w-auto object-contain transition-opacity duration-300 group-hover:opacity-90"
             />
+            <span className="text-orange-500 font-serif text-lg sm:text-xl lg:text-2xl font-semibold tracking-wide whitespace-nowrap">
+              Rocky Top Drivers, LLC
+            </span>
           </a>
 
           <nav className="hidden md:flex items-center gap-8">

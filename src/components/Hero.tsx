@@ -25,6 +25,17 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10 pt-32 pb-24">
         <div className="max-w-3xl">
+          <div className="mb-8">
+            <img
+              src="/5BA9AE3F-CFAE-4201-8752-8EE9398DC39D_(1).PNG"
+              alt="Rocky Top Drivers LLC"
+              className="h-24 sm:h-32 md:h-36 w-auto object-contain mb-4"
+            />
+            <h2 className="text-orange-500 font-serif text-2xl sm:text-3xl md:text-4xl font-semibold tracking-wide">
+              Rocky Top Drivers, LLC
+            </h2>
+          </div>
+
           <p className="section-label mb-6 flex items-center gap-3">
             <span className="w-8 h-px bg-gold-500" />
             Knoxville · Nashville · Charlotte · Atlanta

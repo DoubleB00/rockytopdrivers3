@@ -74,9 +74,9 @@ export default function WhyChooseUs() {
 
             <div className="mt-10">
               <img
-                src="https://images.pexels.com/photos/707046/pexels-photo-707046.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Premium executive transportation vehicle"
-                className="w-full h-56 object-cover object-center opacity-70"
+                src="/5B4D09AA-527A-4636-AF3E-D856B22429FE.JPG"
+                alt="White GMC Acadia - Premium executive transportation vehicle"
+                className="w-full h-56 object-cover object-center opacity-90 border border-white/10"
               />
             </div>
           </div>

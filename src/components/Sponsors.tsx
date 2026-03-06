@@ -2,7 +2,8 @@ import { ExternalLink, Building2 } from 'lucide-react';
 
 interface Sponsor {
   name: string;
-  tagline: string;
+  tagline?: string;
+  description?: string;
   website: string;
   logo?: string;
 }
@@ -11,21 +12,25 @@ const sponsors: Sponsor[] = [
   {
     name: 'Example Business 1',
     tagline: 'Quality Service Since 1995',
+    description: 'Supporting local businesses and community partners',
     website: 'https://example.com',
   },
   {
     name: 'Example Business 2',
     tagline: 'Knoxville\'s Finest',
+    description: 'Trusted partner in the Knoxville community',
     website: 'https://example.com',
   },
   {
     name: 'Example Business 3',
     tagline: 'Family-Owned & Operated',
+    description: 'Serving East Tennessee with pride',
     website: 'https://example.com',
   },
   {
     name: 'Example Business 4',
     tagline: 'Serving East Tennessee',
+    description: 'Building strong community connections',
     website: 'https://example.com',
   },
 ];
@@ -57,18 +62,18 @@ export default function Sponsors() {
               href={sponsor.website}
               target="_blank"
               rel="noopener noreferrer"
-              className="group card-glass p-6 hover:border-gold-500/40 transition-all duration-300"
+              className="group card-glass p-6 hover:border-gold-500/40 transition-all duration-300 flex flex-col"
             >
               <div className="flex flex-col items-center text-center h-full">
-                <div className="w-20 h-20 flex items-center justify-center border border-white/10 group-hover:border-gold-500/40 mb-4 transition-all duration-300">
+                <div className="w-24 h-24 flex items-center justify-center border border-white/10 group-hover:border-gold-500/40 mb-4 transition-all duration-300 bg-white/5">
                   {sponsor.logo ? (
                     <img
                       src={sponsor.logo}
                       alt={sponsor.name}
-                      className="w-full h-full object-contain p-2"
+                      className="w-full h-full object-contain p-3"
                     />
                   ) : (
-                    <Building2 className="w-8 h-8 text-gold-500/60 group-hover:text-gold-500 transition-colors duration-300" />
+                    <Building2 className="w-10 h-10 text-gold-500/60 group-hover:text-gold-500 transition-colors duration-300" />
                   )}
                 </div>
 
@@ -77,12 +82,18 @@ export default function Sponsors() {
                 </h3>
 
                 {sponsor.tagline && (
-                  <p className="text-white/40 text-sm mb-4 flex-grow">
+                  <p className="text-white/50 text-sm font-medium mb-2">
                     {sponsor.tagline}
                   </p>
                 )}
 
-                <div className="flex items-center gap-2 text-gold-500/70 group-hover:text-gold-400 text-sm transition-colors duration-300">
+                {sponsor.description && (
+                  <p className="text-white/35 text-xs mb-4 flex-grow leading-relaxed">
+                    {sponsor.description}
+                  </p>
+                )}
+
+                <div className="flex items-center gap-2 text-gold-500/70 group-hover:text-gold-400 text-sm transition-colors duration-300 mt-auto">
                   <span>Visit Website</span>
                   <ExternalLink className="w-3.5 h-3.5" />
                 </div>
