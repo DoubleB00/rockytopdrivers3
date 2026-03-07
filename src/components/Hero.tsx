@@ -31,8 +31,8 @@ export default function Hero() {
               alt="Rocky Top Drivers LLC"
               className="h-28 sm:h-36 md:h-44 lg:h-48 w-auto object-contain"
             />
-            <div>
-              <h2 className="text-orange-500 font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-wide leading-tight">
+            <div className="flex flex-col">
+              <h2 className="text-orange-500 font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-wide leading-tight whitespace-nowrap">
                 Rocky Top Drivers, LLC
               </h2>
               <p className="section-label mt-3 flex items-center gap-3">
