@@ -48,7 +48,7 @@ export default function Sponsors() {
             <span className="w-8 h-px bg-gold-500" />
           </p>
           <h2 className="section-heading mb-6">
-            Local Sponsors & Featured Knoxville Businesses
+            Local Sponsors & Trusted Businesses
           </h2>
           <p className="text-white/55 text-base leading-relaxed">
             Rocky Top Drivers partners with and promotes great local businesses across the Knoxville area including Oak Ridge, Farragut, Pigeon Forge, Gatlinburg, Sevierville, and Maryville. Our riders may receive recommendations for dining, attractions, and experiences from these trusted partners.

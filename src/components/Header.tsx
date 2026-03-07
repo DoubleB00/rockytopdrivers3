@@ -42,11 +42,8 @@ export default function Header() {
             <img
               src="/5BA9AE3F-CFAE-4201-8752-8EE9398DC39D_(1).PNG"
               alt="Rocky Top Drivers LLC"
-              className="h-20 sm:h-24 w-auto object-contain transition-opacity duration-300 group-hover:opacity-90"
+              className="h-16 sm:h-20 md:h-24 w-auto object-contain transition-opacity duration-300 group-hover:opacity-90"
             />
-            <span className="text-orange-500 font-serif text-lg sm:text-xl lg:text-2xl font-semibold tracking-wide whitespace-nowrap">
-              Rocky Top Drivers, LLC
-            </span>
           </a>
 
           <nav className="hidden md:flex items-center gap-8">

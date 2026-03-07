@@ -12,19 +12,19 @@ export default function About() {
                 alt="Rocky Top Drivers owners - Family-owned business"
                 className="w-full h-80 lg:h-[520px] object-cover object-center"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-charcoal-900/60 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-charcoal-900/70 via-charcoal-900/20 to-transparent" />
             </div>
             <div className="absolute -bottom-6 -right-6 w-48 h-48 border border-gold-500/20 -z-10" />
             <div className="absolute -top-6 -left-6 w-24 h-24 border border-white/5 -z-10" />
 
-            <div className="absolute bottom-6 left-6 right-6 card-glass p-5">
-              <div className="flex items-center gap-3">
-                <div className="flex items-center justify-center w-10 h-10 border border-gold-500/50 flex-shrink-0">
-                  <Mountain className="w-5 h-5 text-gold-500" />
+            <div className="absolute bottom-6 left-6 right-6 bg-charcoal-900/90 backdrop-blur-sm border border-white/10 p-6 shadow-lg">
+              <div className="flex items-center gap-4">
+                <div className="flex items-center justify-center w-12 h-12 border border-gold-500/50 flex-shrink-0 bg-gold-500/5">
+                  <Mountain className="w-6 h-6 text-gold-500" />
                 </div>
                 <div>
-                  <p className="text-white font-semibold text-sm">Rocky Top Drivers, LLC</p>
-                  <p className="text-white/45 text-xs">Family-Owned • Knoxville, Tennessee</p>
+                  <p className="text-white font-semibold text-base">Rocky Top Drivers, LLC</p>
+                  <p className="text-white/60 text-sm">Family-Owned • Knoxville, Tennessee</p>
                 </div>
               </div>
             </div>
