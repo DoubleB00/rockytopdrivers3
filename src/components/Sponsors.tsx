@@ -12,6 +12,7 @@ const sponsors: Sponsor[] = [
   {
     name: 'The Bunny Hive Knoxville',
     website: 'https://www.thebunnyhive.com/knoxville',
+    logo: '/940CD338-691E-48B0-A977-20F5AC8E21F2.jpg',
   },
   {
     name: 'CleverCog',
