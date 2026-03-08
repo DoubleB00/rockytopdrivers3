@@ -52,7 +52,7 @@ export default function Sponsors() {
               className="group card-glass p-6 hover:border-gold-500/40 transition-all duration-300 flex flex-col"
             >
               <div className="flex flex-col items-center text-center h-full">
-                <div className="w-24 h-24 flex items-center justify-center border border-white/10 group-hover:border-gold-500/40 mb-4 transition-all duration-300 bg-white/5">
+                <div className="w-36 h-36 flex items-center justify-center border border-white/10 group-hover:border-gold-500/40 mb-4 transition-all duration-300 bg-white/5">
                   {sponsor.logo ? (
                     <img
                       src={sponsor.logo}
