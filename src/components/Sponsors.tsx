@@ -13,6 +13,12 @@ const sponsors: Sponsor[] = [
     name: 'The Bunny Hive Knoxville',
     website: 'https://www.thebunnyhive.com/knoxville',
   },
+  {
+    name: 'CleverCog',
+    tagline: 'Modern Websites for Businesses',
+    website: 'https://clevercog.net',
+    logo: '/image0.png',
+  },
 ];
 
 export default function Sponsors() {
