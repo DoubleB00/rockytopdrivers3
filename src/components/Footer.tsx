@@ -38,14 +38,18 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-3">
               <a
-                href="#"
+                href="https://www.facebook.com/share/1GVcMbLmbP/?mibextid=wwXIfr"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Facebook"
                 className="w-9 h-9 flex items-center justify-center border border-white/10 hover:border-gold-500/40 hover:text-gold-500 text-white/40 transition-all duration-200"
               >
                 <Facebook className="w-4 h-4" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/rockytopdrivers?igsh=bDhmNzgwcGNpMmZk"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Instagram"
                 className="w-9 h-9 flex items-center justify-center border border-white/10 hover:border-gold-500/40 hover:text-gold-500 text-white/40 transition-all duration-200"
               >
