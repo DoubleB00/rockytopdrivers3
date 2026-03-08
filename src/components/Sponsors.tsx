@@ -10,28 +10,8 @@ interface Sponsor {
 
 const sponsors: Sponsor[] = [
   {
-    name: 'Example Business 1',
-    tagline: 'Quality Service Since 1995',
-    description: 'Supporting local businesses and community partners',
-    website: 'https://example.com',
-  },
-  {
-    name: 'Example Business 2',
-    tagline: 'Knoxville\'s Finest',
-    description: 'Trusted partner in the Knoxville community',
-    website: 'https://example.com',
-  },
-  {
-    name: 'Example Business 3',
-    tagline: 'Family-Owned & Operated',
-    description: 'Serving East Tennessee with pride',
-    website: 'https://example.com',
-  },
-  {
-    name: 'Example Business 4',
-    tagline: 'Serving East Tennessee',
-    description: 'Building strong community connections',
-    website: 'https://example.com',
+    name: 'The Bunny Hive Knoxville',
+    website: 'https://www.thebunnyhive.com/knoxville',
   },
 ];
 
