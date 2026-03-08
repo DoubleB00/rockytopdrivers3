@@ -1,5 +1,3 @@
-import { Mountain } from 'lucide-react';
-
 export default function About() {
   return (
     <section id="about" className="bg-charcoal-900 py-24 lg:py-32 relative overflow-hidden">
@@ -19,8 +17,12 @@ export default function About() {
 
             <div className="absolute bottom-6 left-6 right-6 bg-charcoal-900/90 backdrop-blur-sm border border-white/10 p-6 shadow-lg">
               <div className="flex items-center gap-4">
-                <div className="flex items-center justify-center w-12 h-12 border border-gold-500/50 flex-shrink-0 bg-gold-500/5">
-                  <Mountain className="w-6 h-6 text-gold-500" />
+                <div className="flex items-center justify-center w-12 h-12 flex-shrink-0">
+                  <img
+                    src="/5BA9AE3F-CFAE-4201-8752-8EE9398DC39D_(1).PNG"
+                    alt="Rocky Top Drivers LLC"
+                    className="w-12 h-12 object-contain"
+                  />
                 </div>
                 <div>
                   <p className="text-white font-semibold text-base">Rocky Top Drivers, LLC</p>

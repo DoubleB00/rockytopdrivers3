@@ -24,35 +24,32 @@ export default function Hero() {
       />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10 pt-32 pb-24">
-        <div className="max-w-3xl">
-          <div className="mb-10 flex items-center gap-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="mb-12 flex flex-col items-center text-center">
             <img
               src="/5BA9AE3F-CFAE-4201-8752-8EE9398DC39D_(1).PNG"
               alt="Rocky Top Drivers LLC"
-              className="h-28 sm:h-36 md:h-44 lg:h-48 w-auto object-contain"
+              className="h-40 sm:h-48 md:h-56 lg:h-64 xl:h-72 w-auto object-contain mb-6"
             />
-            <div className="flex flex-col">
-              <h2 className="text-orange-500 font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-wide leading-tight whitespace-nowrap">
-                Rocky Top Drivers, LLC
-              </h2>
-              <p className="section-label mt-3 flex items-center gap-3">
-                <span className="w-8 h-px bg-gold-500" />
-                Knoxville · Nashville · Charlotte · Atlanta
-              </p>
-            </div>
+            <h2 className="text-orange-500 font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-wide leading-tight whitespace-nowrap mb-4">
+              Rocky Top Drivers, LLC
+            </h2>
+            <p className="text-gold-400 text-lg sm:text-xl md:text-2xl font-light tracking-wide">
+              Knoxville • Nashville • Charlotte • Atlanta
+            </p>
           </div>
 
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold text-white leading-tight mb-6 text-balance">
+          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold text-white leading-tight mb-6 text-balance text-center">
             Private Long-Distance
             <span className="block text-gold-400">&amp; Executive</span>
             Ride Service
           </h1>
 
-          <p className="text-white/65 text-lg md:text-xl leading-relaxed mb-10 max-w-xl font-light">
+          <p className="text-white/65 text-lg md:text-xl leading-relaxed mb-10 max-w-2xl font-light text-center mx-auto">
             Reliable private transportation between Knoxville, Nashville, Charlotte &amp; Atlanta. No rideshare uncertainty — just a trusted driver, on your schedule.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="https://rockyropdrivers.setmore.com/"
               target="_blank"
@@ -67,7 +64,7 @@ export default function Hero() {
             </a>
           </div>
 
-          <div className="mt-16 flex items-center gap-8 pt-8 border-t border-white/10">
+          <div className="mt-16 flex items-center justify-center gap-8 pt-8 border-t border-white/10">
             {[
               { value: '5+', label: 'Years of Service' },
               { value: '100%', label: 'Private Rides' },
