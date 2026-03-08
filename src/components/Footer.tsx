@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook, Instagram } from 'lucide-react';
 
 const serviceAreas = [
   'Knoxville, TN',
@@ -54,13 +54,6 @@ export default function Footer() {
                 className="w-9 h-9 flex items-center justify-center border border-white/10 hover:border-gold-500/40 hover:text-gold-500 text-white/40 transition-all duration-200"
               >
                 <Instagram className="w-4 h-4" />
-              </a>
-              <a
-                href="#"
-                aria-label="LinkedIn"
-                className="w-9 h-9 flex items-center justify-center border border-white/10 hover:border-gold-500/40 hover:text-gold-500 text-white/40 transition-all duration-200"
-              >
-                <Linkedin className="w-4 h-4" />
               </a>
             </div>
           </div>

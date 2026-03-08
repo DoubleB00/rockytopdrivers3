@@ -66,12 +66,12 @@ export default function Hero() {
 
           <div className="mt-16 flex items-center justify-center gap-8 pt-8 border-t border-white/10">
             {[
-              { value: '5+', label: 'Years of Service' },
+              { value: '2025', label: 'Established' },
               { value: '100%', label: 'Private Rides' },
               { value: '24/7', label: 'Availability' },
             ].map(({ value, label }) => (
               <div key={label} className="text-center">
-                <div className="font-serif text-2xl font-semibold text-gold-400">{value}</div>
+                <div className="font-serif text-2xl font-semibold text-orange-500">{value}</div>
                 <div className="text-white/50 text-xs tracking-wide uppercase mt-0.5">{label}</div>
               </div>
             ))}
